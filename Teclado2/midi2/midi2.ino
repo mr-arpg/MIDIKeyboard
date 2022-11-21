@@ -7,10 +7,10 @@ const int table [6][9] = {
   };
  
 //These will be the output pins (black pins) maybe the other way around
-const int pin_o [9] = {8,9,10,11,12,14,15,16,17};
+const int pin_o [6] = {14,15,16,17,12,11};
 
 //These will be the input pins (red pins)
-const int pin_i [6] = {2,3,4,5,6,7};
+const int pin_i [9] = {2,3,4,5,6,7,8,9,10};
 
 //These will save if note is on or off
 bool note_state[49] = {false};
@@ -21,12 +21,12 @@ MIDI_CREATE_DEFAULT_INSTANCE();
 
 void setup()
 {
-  for(int i = 0; i < 9; i++)
+  for(int i = 0; i < 6; i++)
   {
     pinMode(pin_o[i], OUTPUT);
   }
 
-  for(int i = 0; i < 6; i++)
+  for(int i = 0; i < 9; i++)
   {
     pinMode(pin_i[i], INPUT_PULLUP);
   }
@@ -59,40 +59,40 @@ void niba(int note, bool state)
 void loop() {
   
   int note = 0;
-  for(int o = 0; o < 9; o++)
+  for(int o = 0; o < 6; o++)
   {
     //cycle through output pins and send GND signal
     digitalWrite(pin_o[o], LOW);
 
     //repad input signals for GND, meaning made connection
-    for(int i = 0; i < 6; i++)
+    for(int i = 0; i < 9; i++)
     {
      
-      note = 8*i+1+o;
-      if(digitalRead(pin_i[i])==LOW && !note_state[note-1])
+      //note = 8*i+1+o;
+      if(digitalRead(pin_i[i])==LOW && !note_state[table[o][i]-1])
       {
        /*for(int id = 0; id < 49; id++)
        {
         note_state[id] = 0;
        }*/
-        //Serial.println(table[i][o]);
-        Serial.println(pin_i[i]);
-        Serial.println(pin_o[o]);
+        Serial.println(table[o][i]);
+        //Serial.println(pin_i[i]);
+        //Serial.println(pin_o[o]);
         //niba(note, 1);
         //this is .sendNoteOn(number of note, volume, midi channel)
         //MIDI.sendNoteOn(note+35, 127, 1);
-        note_state[note-1] = 1;
+        note_state[table[o][i]-1] = 1;
       }
       
-      else if(digitalRead(pin_i[i])==HIGH && note_state[note-1])
+      else if(digitalRead(pin_i[i])==HIGH && note_state[table[o][i]-1])
       {
         //Serial.println(note_state[note-1]);
-        if(0 == 4 && i > 0)
+        /*if(i == 4 && o > 0)
         {
           break;
-        }
-        note_state[note-1] = 0;
-       // Serial.println(table[i][o]);
+        }*/
+        note_state[table[o][i]-1] = 0;
+        Serial.println(table[o][i]);
         //niba(note, 0);
         //MIDI.sendNoteOff(note+35, 0, 1);
       }
