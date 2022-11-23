@@ -67,10 +67,6 @@ void loop() {
       note = 8*i+1+o;
       if(digitalRead(pin_i[i])==LOW && !note_state[note-1])
       {
-       /*for(int id = 0; id < 49; id++)
-       {
-        note_state[id] = 0;
-       }*/
         //Serial.println(note);
         //niba(note, 1);
         //this is .sendNoteOn(number of note, volume, midi channel)
