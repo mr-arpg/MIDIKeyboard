@@ -5,20 +5,18 @@ Our goal is to take a regular eletronic keyboard with no digital capabilities wh
 
 <!-- <img src="./midi.png" alt="Image" width="300px" /> -->
 
-<div style="display: flex; flex-wrap: wrap; justify-content: center;">
-    <div style="flex: 1; margin-right: 10px;">
-        <img src="midi.png" alt="Image 1" width="300px">
-    </div>
-    <div style="flex: 1; margin-left: 10px; margin-right: 10px;">
-        <img src="og.png" alt="Image 2" width="300px">
-    </div>
-    <div style="flex: 1; margin-left: 10px;">
-        <video controls width="100%">
-            <source src="ItsAlive.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-        </video>
-    </div>
+<div style="display: flex;">
+  <div style="flex: 1;">
+    <img src="midi.png" alt="Image 1" width="300">
+  </div>
+  <div style="flex: 1;">
+    <img src="og.png" alt="Image 2" width="300">
+  </div>
+  <div style="flex: 1;">
+    <video src="ItsAlive.mp4" width="300" controls></video>
+  </div>
 </div>
+
 
 
 
