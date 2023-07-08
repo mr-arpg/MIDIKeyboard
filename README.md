@@ -7,10 +7,9 @@ Our goal is to take a regular eletronic keyboard with no digital capabilities wh
 
 <div style="display: flex;">
     <img src="midi.png" alt="Image 1" width="400" />
-      (President Marcelo Rebelo de Sousa trying our midi at SINFO 23.)
     <img src="og.png" alt="Image 2" width="400" />
 </div>
-
+(President Marcelo Rebelo de Sousa trying our midi at SINFO 23.)
 
 
 
