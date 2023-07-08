@@ -7,10 +7,10 @@ Our goal is to take a regular eletronic keyboard with no digital capabilities wh
 
 <div style="display: flex; flex-wrap: wrap; justify-content: center;">
     <div style="flex: 1; margin-right: 10px;">
-        <img src="midi.png" alt="Image 1" style="width: 100%;">
+        <img src="midi.png" alt="Image 1" width="300px">
     </div>
     <div style="flex: 1; margin-left: 10px; margin-right: 10px;">
-        <img src="unknown.png" alt="Image 2" style="width: 100%;">
+        <img src="unknown.png" alt="Image 2" width="300px">
     </div>
     <div style="flex: 1; margin-left: 10px;">
         <video controls width="100%">
