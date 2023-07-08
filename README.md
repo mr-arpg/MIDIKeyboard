@@ -8,15 +8,19 @@ Our goal is to take a regular eletronic keyboard with no digital capabilities wh
 <div style="display: flex;">
   <div style="flex: 1;">
     <img src="midi.png" alt="Image 1" width="300">
+    
+(President Marcelo Rebelo de Sousa trying our midi at SINFO 23.)
   </div>
   <div style="flex: 1;">
     <img src="og.png" alt="Image 2" width="300">
   </div>
-  <div style="flex: 1;">
-    <video src="ItsAlive.mp4" width="300" controls></video>
-  </div>
+  
 </div>
 
+
+
+
+https://github.com/mr-arpg/midi-keyboard/assets/71014048/0359e945-be01-4bf6-b2ac-8d80e95041af
 
 
 
