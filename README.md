@@ -10,7 +10,7 @@ Our goal is to take a regular eletronic keyboard with no digital capabilities wh
         <img src="midi.png" alt="Image 1" width="300px">
     </div>
     <div style="flex: 1; margin-left: 10px; margin-right: 10px;">
-        <img src="unknown.png" alt="Image 2" width="300px">
+        <img src="og.png" alt="Image 2" width="300px">
     </div>
     <div style="flex: 1; margin-left: 10px;">
         <video controls width="100%">
