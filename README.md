@@ -13,7 +13,10 @@ Our goal is to take a regular eletronic keyboard with no digital capabilities wh
 
 
 
-https://github.com/mr-arpg/midi-keyboard/assets/71014048/0359e945-be01-4bf6-b2ac-8d80e95041af
+
+https://github.com/mr-arpg/midi-keyboard/assets/71014048/e68a9ad3-aeb0-48a2-af53-0fefcc8c9f4b
+
+
 
 
 
