@@ -1,6 +1,6 @@
 # Welcome to the MIDIKeyboard Project!
 
-Our goal is to take a regular eletronic keyboard with no digital capabilities whatsoever and turn it into a fully functional MIDI Keyboard, using a microcontroller. Props to [@MIBismuth](https://github.com/MIBismuth) for doing the heavy lifting in this project 🫂
+Our goal is to take a regular eletronic keyboard with no digital capabilities whatsoever and turn it into a fully functional MIDI Keyboard, using a microcontroller. Props to [@MIBismuth](https://github.com/MIBismuth), he did the heavy lifting for this project 🫂
 
 <!-- <img src="./midi.png" alt="Image" width="300px" /> -->
 
